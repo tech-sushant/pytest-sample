@@ -1,0 +1,13 @@
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: bstack-demo
+projectName: BrowserStack Sample
+CUSTOM_TAG_1: "Sample Tag 1"
+networkLogs: true
+consoleLogs: info
+framework: pytest
